@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>nss-disable-trolls options</title>
+</head>
+
+<body>
+    <div class="col-xs-12 col-sm-12">
+        <form role="form" class='form-horizontal'>
+            <div class="form-row">
+                <div class="col-xs-3 text-right">
+                    <label for="trolls">Jména trolů</label>
+                </div>
+                <div class="col-xm-9">
+                    <input type="text" class="form-control" id="trolls" aria-describedby="trollsHelp"
+                        placeholder="Jména trolů">
+                    <small id="trollsHelp" class="form-text text-muted">Jména trolů oddělených čárkou.</small>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-xs-3 text-right">&nbsp;</div>
+                <div class="col-xs-9">
+                    <input class="form-check-input" type="checkbox" id="remove" aria-describedby="removeHelp">
+                    <label class="form-check-label" for="remove">
+                        Odstranit zcela
+                    </label>
+                    <small id="removeHelp" class="form-text text-muted">Příspěvky budou zcela odstraněny nebo pouze
+                        zobrazeny bíle na bílém pozadí.</small>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" id="save">Uložit</button>
+        </form>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

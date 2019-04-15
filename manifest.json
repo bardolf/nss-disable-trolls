@@ -1,0 +1,37 @@
+{
+    "name": "Nekrmte trolly na nss.cz!",
+    "description": "Rozšíření chromu, které filtruje diskusi na nss.cz na základě jména autora.",
+    "version": "1.01",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.nss.cz/*",
+                "https://www.nss.cz/*"
+            ],
+            "js": [
+                "jquery-3.4.0.min.js",
+                "myscript.js"
+            ]
+        }
+    ],
+    "options_page": "options.html",
+    "page_action": {
+        "default_icon": {
+            "16": "images/trolls16.png",
+            "32": "images/trolls32.png",
+            "48": "images/trolls48.png",
+            "128": "images/trolls128.png"
+        }
+    },
+    "icons": {
+        "16": "images/trolls16.png",
+        "32": "images/trolls32.png",
+        "48": "images/trolls48.png",
+        "128": "images/trolls128.png"
+    }
+}
