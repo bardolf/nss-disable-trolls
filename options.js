@@ -18,7 +18,7 @@ function save_options() {
 // stored in chrome.storage.
 function restore_options() {
     chrome.storage.sync.get({
-        trolls: 'Zmestabileho, naska, ciki333',
+        trolls: 'Zmestabileho, naska, ciki333, brazina',
         remove: false
     }, function (items) {
         document.getElementById('trolls').value = items.trolls;

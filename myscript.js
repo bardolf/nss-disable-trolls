@@ -3,7 +3,7 @@ jQuery.expr[':'].Contains = function (a, i, m) {
 };
 
 chrome.storage.sync.get({
-    trolls: 'Zmestabileho, naska, ciki333',
+    trolls: 'Zmestabileho, naska, ciki333, brazina',
     remove: false
 }, function (items) {
     var trolls = items.trolls.split(",")

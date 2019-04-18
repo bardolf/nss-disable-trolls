@@ -1,7 +1,7 @@
 {
     "name": "Nekrmte trolly na nss.cz!",
     "description": "Rozšíření chromu, které filtruje diskusi na nss.cz na základě jména autora.",
-    "version": "1.01",
+    "version": "1.02",
     "manifest_version": 2,
     "permissions": [
         "activeTab",
